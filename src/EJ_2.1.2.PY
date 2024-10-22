@@ -17,9 +17,9 @@ def comprobar_contraseña(contraseña):
 
 
 def main():
-    contraseña = input("¿Cual es la contraseña? ").lower()
+    contraseña = input("¿Cual es la contraseña? ")
 
-    comprobar_contraseña(contraseña)
+    comprobar_contraseña(contraseña.lower())
 
 
 if __name__ == "__main__":
