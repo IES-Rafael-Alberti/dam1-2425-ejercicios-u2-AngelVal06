@@ -3,13 +3,26 @@
 # Escribir un programa que pregunte al usuario su nombre y sexo, y muestre por pantalla el grupo que le corresponde.
 
 
+def pedir_sexo():
+    return input("Dime cual es tu sexo: ").lower()
 
+
+def pedir_nombre():
+    return input("Dime cual es tu nombre: ").upper()
 
 
 
 
 
 def main():
+    sexo = pedir_sexo()
+    nombre = pedir_nombre()
+    if sexo == "mujer" and nombre[0] < "M":
+        print("Eres del grupo A.")
+    elif sexo == "hombre" and nombre[0] > "N":
+        print("Eres del grupo A.")
+    else:
+        print("Eres del grupo B.")
 
 
 
