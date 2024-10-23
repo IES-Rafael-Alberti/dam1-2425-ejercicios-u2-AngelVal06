@@ -33,6 +33,5 @@ def main():
     obtener_tipo_impositivo(renta)
 
 
-
 if __name__ == "__main__":
     main()

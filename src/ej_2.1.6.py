@@ -11,9 +11,6 @@ def pedir_nombre():
     return input("Dime cual es tu nombre: ").upper()
 
 
-
-
-
 def main():
     sexo = pedir_sexo()
     nombre = pedir_nombre()
@@ -23,7 +20,6 @@ def main():
         print("Eres del grupo A.")
     else:
         print("Eres del grupo B.")
-
 
 
 if __name__ == "__main__":
