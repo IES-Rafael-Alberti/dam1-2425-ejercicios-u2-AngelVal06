@@ -13,14 +13,8 @@ def borrar_pantalla():
 
 def calcular_capital_por_año(inversion, interes, años):
     inversion *= 1 + interes / 100
-    for i in range(1, años):
-
-
-
-
-
-
-
+    for i in range(1, años + 1):
+        print(f"{i}: {inversion * i}")
 
 
 def main():
@@ -29,8 +23,6 @@ def main():
     interes = float(input("Cantidad de interés anual: "))
     años = int(input("Cantidad de años: "))
     calcular_capital_por_año(inversion, interes, años)
-
-
 
 
 if __name__ == "__main__":
